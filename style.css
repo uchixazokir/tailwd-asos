@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #A6A8AD;
+}
+header button{
+    width: 95px;
+    height: 35px;
+    border-radius: 32px;
+    border: none;
+    font-size: 16px;
+}
+.box{
+    background-image: url(IMAGE\ \(4\).png);
+    height: 744px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    
+}
+.box button{
+    width: 125px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #0033FF;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+.box div{
+    margin: auto;
+}
